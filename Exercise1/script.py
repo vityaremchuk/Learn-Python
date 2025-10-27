@@ -1,10 +1,10 @@
-num1 = 30;
-num2 = 40;
+num1 = int(input("Enter your first number: "));
+num2 = int(input("Enter your second number: "));
 
-mnozena = num1 * num2;
-dodavana = num1 + num2;
+multiplication = num1 * num2;
+addition = num1 + num2;
 
-if mnozena <= 1000:
-    print(mnozena)
+if multiplication <= 1000:
+    print(multiplication)
 else:
-    print(dodavana)
+    print(addition)
